@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const openBtn = document.getElementById('openModal');
 const body = document.getElementById('mymodal');
-const closeBtn = document.getElementById('close-modal');
+const closeBtn = document.querySelector('.close-modal');
 
 openBtn.addEventListener('click',()=>{
 	body.style.display="block"
